@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rectangle Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rectangle Calculator</h1>
+    <div class="container">
+      <form id="rectangle-form">
+        <div>
+          <label for="width">Width:</label>
+          <input type="number" id="width" />
+        </div>
+        <div>
+          <label for="height">Height:</label>
+          <input type="number" id="height" />
+        </div>
+        <button type="submit">Calculate</button>
+      </form>
+      <div id="results">
+        <p id="area-result"></p>
+        <p id="perimeter-result"></p>
+      </div>
+    </div>
+  </body>
+</html>
